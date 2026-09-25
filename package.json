@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "check:placeholders": "tsx scripts/check-placeholders.ts",
     "check:snippets": "tsx scripts/check-snippets.ts",
     "check:nav-coverage": "node scripts/check-nav-coverage.mjs",
     "check:stellar-testnet": "tsx scripts/check-stellar-testnet-snippets.ts",
